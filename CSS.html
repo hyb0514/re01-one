@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css规则</title>
+</head>
+<style>
+    img{
+        display: block;  /*显示为块*/
+        border-radius: 20px;   /*圆角 20px*/
+        margin: auto;
+        padding: 10px;
+    }
+    .flex{
+        display: flex;  /*显示为flex盒 */
+        justify-content:space-around; /*每个项目间隔相等排列*/
+        list-style-type: none; /*列表项标记的类型为无*/
+        margin: auto;
+        padding: 0;
+        width: 600px;
+        background-color: white;
+        
+    }
+    .button { /*按钮组样式*/
+        background-color: #4CAF50; 
+        border: none;
+        color: white;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .button:hover { 
+        background-color: #3e8e41;
+    }
+</style>
+<body>
+    <img src="../R-C.jpg" alt="风景图" width="640" height="400">
+
+    <ul class="flex">
+        <li><a class="button" href="./CSS.html">原图</a></li>
+        <li><a class="button" href="./Style0.html">样式1</a></li>
+        <li><a class="button" href="./Style1.html">样式2</a></li>
+        <li><a class="button" href="./Style2.html">样式3</a></li>
+        
+    </ul>
+</body>
+</html>
